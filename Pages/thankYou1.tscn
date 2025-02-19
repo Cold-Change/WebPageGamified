@@ -1,0 +1,35 @@
+[gd_scene load_steps=2 format=3 uid="uid://bmuk1580gel1q"]
+
+[ext_resource type="Theme" uid="uid://ll33h8y3w4gj" path="res://Theme.tres" id="1_4de2f"]
+
+[node name="ThankYou" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Body" type="RichTextLabel" parent="HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource("1_4de2f")
+bbcode_enabled = true
+text = "We look forward to hearing from you and are always happy to assist. Your feedback is important to us as we continue to improve [App Name].
+"
+fit_content = true

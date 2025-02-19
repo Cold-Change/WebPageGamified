@@ -1,0 +1,172 @@
+[gd_scene load_steps=2 format=3 uid="uid://caisa82kwurvt"]
+
+[ext_resource type="Theme" uid="uid://ll33h8y3w4gj" path="res://Theme.tres" id="1_3xhea"]
+
+[node name="ContactUs" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Title" type="RichTextLabel" parent="HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource("1_3xhea")
+bbcode_enabled = true
+text = "[p][b][center]Contact Us
+[/center][/b]"
+fit_content = true
+
+[node name="Body" type="RichTextLabel" parent="HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource("1_3xhea")
+bbcode_enabled = true
+text = "We're here to help! If you have any questions, feedback, or need assistance, feel free to reach out to us. Our team is dedicated to providing you with prompt support and ensuring your experience with [App Name] is seamless and enjoyable. Below are the different ways you can contact us:"
+fit_content = true
+
+[node name="Buffer" type="Container" parent="HBoxContainer"]
+custom_minimum_size = Vector2(40, 0)
+layout_mode = 2
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="SubTitle" type="RichTextLabel" parent="HBoxContainer/VBoxContainer2"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource("1_3xhea")
+bbcode_enabled = true
+text = "[p][center][font_size=24]Customer Support"
+fit_content = true
+
+[node name="Body" type="RichTextLabel" parent="HBoxContainer/VBoxContainer2"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource("1_3xhea")
+bbcode_enabled = true
+text = "For general inquiries, troubleshooting, or technical support, you can reach our customer support team through the following methods:
+Email: support@[appname].com
+Phone: +1 (800) 123-4567"
+fit_content = true
+
+[node name="Buffer2" type="Container" parent="HBoxContainer"]
+custom_minimum_size = Vector2(40, 0)
+layout_mode = 2
+
+[node name="VBoxContainer3" type="VBoxContainer" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="SubTitle" type="RichTextLabel" parent="HBoxContainer/VBoxContainer3"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource("1_3xhea")
+bbcode_enabled = true
+text = "[p][center][font_size=24]Mailing Address"
+fit_content = true
+
+[node name="Body" type="RichTextLabel" parent="HBoxContainer/VBoxContainer3"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource("1_3xhea")
+bbcode_enabled = true
+text = "If you need to send us physical mail or have any documents you'd like to send, please use the address below:
+[App Name] Support Team
+1234 Tech Lane, Suite 100
+San Francisco, CA 94105
+USA"
+fit_content = true
+
+[node name="Buffer3" type="Container" parent="HBoxContainer"]
+custom_minimum_size = Vector2(40, 0)
+layout_mode = 2
+
+[node name="VBoxContainer4" type="VBoxContainer" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="SubTitle" type="RichTextLabel" parent="HBoxContainer/VBoxContainer4"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource("1_3xhea")
+bbcode_enabled = true
+text = "[p][center][font_size=24]Business Inquiries"
+fit_content = true
+
+[node name="Body" type="RichTextLabel" parent="HBoxContainer/VBoxContainer4"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource("1_3xhea")
+bbcode_enabled = true
+text = "For partnership opportunities, press inquiries, or business-related questions, please reach out to our business team directly:
+Email: business@[appname].com"
+fit_content = true
+
+[node name="Buffer4" type="Container" parent="HBoxContainer"]
+custom_minimum_size = Vector2(40, 0)
+layout_mode = 2
+
+[node name="VBoxContainer5" type="VBoxContainer" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="SubTitle" type="RichTextLabel" parent="HBoxContainer/VBoxContainer5"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource("1_3xhea")
+bbcode_enabled = true
+text = "[p][center][font_size=24]Social Media"
+fit_content = true
+
+[node name="Body" type="RichTextLabel" parent="HBoxContainer/VBoxContainer5"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource("1_3xhea")
+bbcode_enabled = true
+text = "Stay connected with us on social media for the latest updates, announcements, and more:
+Twitter: @appname
+Facebook: facebook.com/[appname]
+Instagram: @appname
+LinkedIn: linkedin.com/company/[appname]"
+fit_content = true

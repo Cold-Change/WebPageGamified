@@ -1,0 +1,190 @@
+[gd_scene load_steps=2 format=3 uid="uid://hriyhm2ftrfw"]
+
+[ext_resource type="Theme" uid="uid://ll33h8y3w4gj" path="res://Theme.tres" id="1_26efs"]
+
+[node name="Information" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Title" type="RichTextLabel" parent="HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource("1_26efs")
+bbcode_enabled = true
+text = "[p][b][center]Information
+[/center][/b]"
+fit_content = true
+
+[node name="Body" type="RichTextLabel" parent="HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource("1_26efs")
+bbcode_enabled = true
+text = "Thank you for choosing [App Name]! This page will provide you with all the essential details you need to maximize your experience with the app. Whether you're looking to customize settings, learn about new updates, or explore features in-depth, you've come to the right place."
+fit_content = true
+
+[node name="Buffer" type="Container" parent="HBoxContainer"]
+custom_minimum_size = Vector2(40, 0)
+layout_mode = 2
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="SubTitle" type="RichTextLabel" parent="HBoxContainer/VBoxContainer2"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource("1_26efs")
+bbcode_enabled = true
+text = "[p][center][font_size=24]Getting Started"
+fit_content = true
+
+[node name="Body" type="RichTextLabel" parent="HBoxContainer/VBoxContainer2"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource("1_26efs")
+bbcode_enabled = true
+text = "To get started, simply sign up or log in to your account. Once you're in, you'll have access to the main dashboard where you can navigate through various sections. If you're new, we recommend taking a quick tour to familiarize yourself with the interface and features. You can always revisit this page for guidance along the way."
+fit_content = true
+
+[node name="Buffer2" type="Container" parent="HBoxContainer"]
+custom_minimum_size = Vector2(40, 0)
+layout_mode = 2
+
+[node name="VBoxContainer3" type="VBoxContainer" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="SubTitle" type="RichTextLabel" parent="HBoxContainer/VBoxContainer3"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource("1_26efs")
+bbcode_enabled = true
+text = "[p][center][font_size=24]Personalizing Your Experience"
+fit_content = true
+
+[node name="Body" type="RichTextLabel" parent="HBoxContainer/VBoxContainer3"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource("1_26efs")
+bbcode_enabled = true
+text = "[App Name] allows you to tailor the app to suit your preferences. From theme settings to notification preferences, the customization options are available in the settings menu. Make it your own by adjusting the layout and functionality to match your needs."
+fit_content = true
+
+[node name="Buffer3" type="Container" parent="HBoxContainer"]
+custom_minimum_size = Vector2(40, 0)
+layout_mode = 2
+
+[node name="VBoxContainer4" type="VBoxContainer" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="SubTitle" type="RichTextLabel" parent="HBoxContainer/VBoxContainer4"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource("1_26efs")
+bbcode_enabled = true
+text = "[p][center][font_size=24]Security & Privacy"
+fit_content = true
+
+[node name="Body" type="RichTextLabel" parent="HBoxContainer/VBoxContainer4"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource("1_26efs")
+bbcode_enabled = true
+text = "Your security and privacy are our top priority. All your data is encrypted and stored securely. You can manage your privacy settings, such as data sharing and permissions, in the settings section. Additionally, we regularly update our security measures to keep your information safe."
+fit_content = true
+
+[node name="Buffer4" type="Container" parent="HBoxContainer"]
+custom_minimum_size = Vector2(40, 0)
+layout_mode = 2
+
+[node name="VBoxContainer5" type="VBoxContainer" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="SubTitle" type="RichTextLabel" parent="HBoxContainer/VBoxContainer5"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource("1_26efs")
+bbcode_enabled = true
+text = "[p][center][font_size=24]Support"
+fit_content = true
+
+[node name="Body" type="RichTextLabel" parent="HBoxContainer/VBoxContainer5"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource("1_26efs")
+bbcode_enabled = true
+text = "If you encounter any issues or need assistance, our support team is here to help. You can find FAQs, troubleshooting guides, and contact information in the Help & Support section. We are committed to providing you with timely and helpful solutions."
+fit_content = true
+
+[node name="Buffer5" type="Container" parent="HBoxContainer"]
+custom_minimum_size = Vector2(40, 0)
+layout_mode = 2
+
+[node name="VBoxContainer6" type="VBoxContainer" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="SubTitle" type="RichTextLabel" parent="HBoxContainer/VBoxContainer6"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource("1_26efs")
+bbcode_enabled = true
+text = "[p][center][font_size=24]Updates and New Features"
+fit_content = true
+
+[node name="Body" type="RichTextLabel" parent="HBoxContainer/VBoxContainer6"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource("1_26efs")
+bbcode_enabled = true
+text = "We're constantly working on improving [App Name]. Stay tuned for exciting updates, new features, and bug fixes. Make sure to enable automatic updates to get the latest version and never miss out on new capabilities."
+fit_content = true

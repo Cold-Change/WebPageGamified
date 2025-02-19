@@ -1,0 +1,11 @@
+res://platformer_level_1.tscn
+res://Player/player.tscn
+res://Tilemaps/dungeon_tilemap.tscn
+res://Pages/home.tscn
+res://Pages/information.tscn
+res://Pages/contactUs.tscn
+res://Tilemaps/dungeon_tilemap_background.tscn
+res://Player/player.gd
+res://Pages/thankYou.tscn
+res://Pages/thankYou1.tscn
+res://Pages/thankYou2.tscn

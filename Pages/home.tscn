@@ -1,0 +1,143 @@
+[gd_scene load_steps=2 format=3 uid="uid://drwpngbvmlrju"]
+
+[ext_resource type="Theme" uid="uid://ll33h8y3w4gj" path="res://Theme.tres" id="1_fsunb"]
+
+[node name="Home" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Title" type="RichTextLabel" parent="HBoxContainer"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource("1_fsunb")
+bbcode_enabled = true
+text = "[p][b][center]Welcome to
+[App Name]!
+[/center][/b]"
+fit_content = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="SubTitle" type="RichTextLabel" parent="HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource("1_fsunb")
+bbcode_enabled = true
+text = "[p][center][font_size=24]Mission"
+fit_content = true
+
+[node name="Body" type="RichTextLabel" parent="HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource("1_fsunb")
+bbcode_enabled = true
+text = "At [App Name], we're committed to delivering an intuitive, streamlined experience designed to make your life easier. Whether you’re a first-time user or a seasoned pro, our app has everything you need to achieve your goals efficiently. With a sleek interface and powerful features, getting started is simple and enjoyable. Explore the various sections of the app and discover the tools you need, all in the palm of your hand."
+fit_content = true
+
+[node name="Buffer" type="Container" parent="HBoxContainer"]
+custom_minimum_size = Vector2(40, 0)
+layout_mode = 2
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="SubTitle" type="RichTextLabel" parent="HBoxContainer/VBoxContainer2"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource("1_fsunb")
+bbcode_enabled = true
+text = "[p][center][font_size=24]Features Overview"
+fit_content = true
+
+[node name="Body" type="RichTextLabel" parent="HBoxContainer/VBoxContainer2"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource("1_fsunb")
+bbcode_enabled = true
+text = "[App Name] brings together a wide range of features to ensure you have the best experience possible. From easy-to-use navigation to customizable settings, we’ve thought of everything. You can access everything you need with just a few taps, making it quicker than ever to get things done. With automatic syncing, your data is always up-to-date across all devices. And with notifications, you’ll never miss important updates."
+fit_content = true
+
+[node name="Buffer2" type="Container" parent="HBoxContainer"]
+custom_minimum_size = Vector2(40, 0)
+layout_mode = 2
+
+[node name="VBoxContainer3" type="VBoxContainer" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="SubTitle" type="RichTextLabel" parent="HBoxContainer/VBoxContainer3"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource("1_fsunb")
+bbcode_enabled = true
+text = "[p][center][font_size=24]Seamless Integration"
+fit_content = true
+
+[node name="Body" type="RichTextLabel" parent="HBoxContainer/VBoxContainer3"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource("1_fsunb")
+bbcode_enabled = true
+text = "Integrating seamlessly with your other apps and tools, [App Name] ensures that you spend less time switching between apps and more time accomplishing what matters most. Whether it's connecting to your calendar, syncing with cloud storage, or updating your preferences, everything is in one place and easily accessible. Our integration capabilities make your experience even more smooth and connected."
+fit_content = true
+
+[node name="Buffer3" type="Container" parent="HBoxContainer"]
+custom_minimum_size = Vector2(40, 0)
+layout_mode = 2
+
+[node name="VBoxContainer4" type="VBoxContainer" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="SubTitle" type="RichTextLabel" parent="HBoxContainer/VBoxContainer4"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource("1_fsunb")
+bbcode_enabled = true
+text = "[p][center][font_size=24]Stay Ahead of the Curve"
+fit_content = true
+
+[node name="Body" type="RichTextLabel" parent="HBoxContainer/VBoxContainer4"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource("1_fsunb")
+bbcode_enabled = true
+text = "Stay ahead with our innovative features that are designed to save you time and effort. With regular updates, new tools, and added functionalities, [App Name] evolves with you. We listen to user feedback and strive to continuously improve the app, ensuring that it adapts to your changing needs."
+fit_content = true
